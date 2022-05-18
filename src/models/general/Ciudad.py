@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from models.BaseUbicacion import BaseUbicacion
+from models.general.BaseUbicacion import BaseUbicacion
 
 
 @dataclass

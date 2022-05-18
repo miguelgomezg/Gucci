@@ -1,7 +1,7 @@
 from dataclasses import dataclass
-from models.Genero import Genero
+from models.general.Genero import Genero
 
-from models.TipoProducto import TipoProducto
+from models.general.TipoProducto import TipoProducto
 
 
 @dataclass

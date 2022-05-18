@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-from models.Ciudad import Ciudad
-from models.Pais import Pais
+from models.general.Ciudad import Ciudad
+from models.general.Pais import Pais
 
 
 @dataclass

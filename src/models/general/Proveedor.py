@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from models.TipoProducto import TipoProducto
+from models.general.TipoProducto import TipoProducto
 
 
 @dataclass

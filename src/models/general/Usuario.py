@@ -1,9 +1,8 @@
 from dataclasses import dataclass
 from datetime import date
-import email
-from models.TipoProducto import TipoProducto
+from models.general.TipoProducto import TipoProducto
 
-from models.Ubicacion import Ubicacion
+from models.general.Ubicacion import Ubicacion
 
 
 @dataclass
