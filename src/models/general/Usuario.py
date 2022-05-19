@@ -7,6 +7,7 @@ from models.general.Ubicacion import Ubicacion
 
 @dataclass
 class Usuario:
+    id: int
     email: str
     nombre: str
     apellido: str

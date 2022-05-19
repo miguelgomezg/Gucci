@@ -16,6 +16,7 @@ class CrearUsuario(BaseModel):
 
 
 class ObtenerUsuarios(BaseModel):
+    id: int = Field(...)
     nombre: str = Field(...)
     apellidos: str = Field(...)
 
